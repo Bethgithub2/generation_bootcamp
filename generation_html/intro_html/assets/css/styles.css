@@ -1,0 +1,10 @@
+p {
+    color: brown;
+}
+
+.saludo { /* va a afectar a todos los div son clase saludo */
+    color: aqua;
+}
+.negritas{
+    font-weight: bold;
+}
