@@ -1,0 +1,87 @@
+/*selector universal*/
+/* *{
+    background-color: blue;
+} */
+
+/* :root{
+    apliza estilos a todo
+}
+ */
+
+/* html{
+    seleccionar todo el archivo fuente, tipo de letra, etc
+} */
+
+
+
+
+/*selector de  etiqueta*/
+/*elemento html {
+
+}*/
+
+/*selector de c*/
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse ; 
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+/*selector de ID*/
+
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, .6);
+    
+}
+
+/* !important tiene la mayor jerarquia de todas */
+
+
+/* selector de clase */
+
+body{
+    background-color: cornflowerblue;
+}
+
+.color{
+    background-color: aqua;
+}
+.color{
+    background-color: blue;
+}
+.color{
+    background-color: blueviolet;
+}
+/* toma la ultima y es la que aplica */
+
+.color-texto {
+    color: crimson;
+    background-color: aqua;
+}
+.forma{
+    height: 100px;
+    width: 300px;
+}
+.borde{
+    border: 3px solid black;
+/*     border-top: 3px solid green;
+    border-right: 3px dashed red;
+    border-bottom:3px solid black ;
+    border-left:3px solid blue ; */
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+/* propiedades que afectan el texto */
+
+p{
+    font-family: cursive ; /* tipo de letra  */
+    font-size: 20px; /* tamano del fonde */
+    font-weight: bold; /* letra mas gruesa o delgada */
+}
