@@ -1,0 +1,32 @@
+
+h1{
+    text-align: center;
+}
+
+.formulario{
+    border: 5px solid rgb(60, 0, 255) ;
+    padding: 10px; /*separar*/
+    background-color: rgb(101, 222, 244);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto; /* centrar */
+}
+
+.colorfondo{
+    background-color: rgb(136, 147, 246);
+    border: none;
+    border-radius: 5px; /*redondear las esquinas*/
+    margin-bottom: 10px; /* empuja hacia abajo */
+}
+.btn-enviar{
+    background-color: blueviolet;
+    border: none;
+    color: azure;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.acomodolabel{
+    display: inline-block; /* modificar tamano es nivel internmedio */
+    width: 100px;
+}

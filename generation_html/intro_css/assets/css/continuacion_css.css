@@ -1,0 +1,58 @@
+/*
+px:tamaño de fuente y tmaño de body*/
+/*1200px -pc
+750-tablet
+450-celular
+*/
+/*
+unidades de medida relativa
+%= unidad relativa
+rem = tamaño de px de nuestro navegador
+em = utiliza el tamaño de fuente del elemento padre
+*/
+
+/*reseteo de boox sinzing*/
+
+/*buena practica para resetear los estilos del navegador*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ body{
+   /*  width: 1200px;
+    margin:0 auto; */
+    /*margin: 0; *//*le da un margen por defecto a todo*/
+} 
+
+.forma{
+    width: 100px; /*se acomoda de acuerdo al contenido*/
+    height: 100px;/*puedes poner 100,200 px*/
+    font-size: 20px;/*tamaño de fuente*/
+    padding: 5pxz;
+    margin: auto; /*centrar elemntos en bloque*/
+    text-align: center;
+}
+.color{
+    background-color: blue;
+    border: 5px solid red;
+
+}
+
+p{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0;
+}
+a{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid red;
+    margin-top: 20px;/*LA PARTE DE ARRIBA*/
+    display: block; 
+   /* display: inline-block; */ /* permite que ya no ocupe todo el espacio pero si se pueda mover */ 
+   margin: 30px  auto;
+   text-align: center;
+  /*  margin-top: 50px; */
+
+}

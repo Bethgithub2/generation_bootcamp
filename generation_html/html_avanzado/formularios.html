@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS propios -->
+    <link rel="stylesheet" href="assets/css/formularios.css">
+    <title>formularios</title>
+
+</head>
+<body>
+    <!-- etiqueta de formulario tiene los siguientes metodos action="" method="post"> -->
+    <!-- <! <forms action="" method="post"></forms> -->
+ -->
+
+    <form>
+        <input type="text" placeholder="Nombre" minlength="6" maxlength="10" requiered>
+        <input type="text" placeholder="Apellido" size="10" >
+        <!-- <input type="text" >  --><!-- value="liz" -->
+        <input type="number" min="10" max="10" step="10" >
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="datetime-local">
+        <input type="time">
+        <input type="password"> <!-- guardar contra -->
+        <input type="file"> <!-- subir archivos -->
+        <input type="range" min="1" max="3" > <!-- crea barra para deslizar -->
+        <input type="checkbox" value="hola" checked > <!-- mandar valores a js -->
+        <input type="radio" name="n" value="1" >
+        <input type="radio" name="n" value="2" >
+        <input type="email"  >
+        <select name="menu" size="1">
+            <option value="1">uno</option>
+            <option value="2" selected >dos</option>
+            <option value="3">tres</option>
+        </select> <!-- opciones multiples -->
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <input type="color" id="inputcolor" value="#ff0000" > <!-- seleccionar un color -->
+        <input type="reset" value="limpiar" > <!-- reestablecer -->
+        <input type="submit" value="mandar">
+
+        <!-- son de tipo en linea inputs -->
+        
+        
+        ></form>
+
+        
+
+        <hr>
+        
+        <h1>formulario</h1>
+        <form class="formulario" id="formulariodatos" >
+            <div class="nombre" >
+                <label class="acomodolabel" for="nombre">Nombre</label>
+                <input class="colorfondo" type="text" name="name" id="nombre" placeholder="nombre">
+
+
+            </div>
+            <div class="apellido">
+                <label class="acomodolabel" for="apellido">apellido</label>
+                <input class="colorfondo" type="text" name="apellido" id="apellido" requered placeholder="apellido" >
+            </div>
+            <div class="password">
+                <label  class="acomodolabel" for="password">Contraseña</label>
+                <input class="colorfondo" name="password" type="password" id="password"requered >
+            </div>
+            <div class="correo">
+                <label class="acomodolabel" for="correo">Correo</label>
+                <input class="colorfondo" name="email" type="email" id="correo" >
+            </div>
+            <div class="enviar">
+                <input class="btn-enviar" type="submit" value="Enviar" >
+                <!-- <button type="submit"><img width="10" src="https://www.pinpng.com/pngs/m/318-3182941_paloma-verde-png-imagen-de-paloma-verde-transparent.png" alt="">Enviar</button> -->
+            </div>
+
+        </form>
+        <!-- SCRIPTS -->
+    
+
+        <Script src="assets/js/main.js"></Script>
+    
+</body>
+</html>
