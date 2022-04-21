@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* body{
+    position: relative;
+} */
+
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+/* 
+bottom
+top
+left
+right
+
+*/
+h1{
+    /* position: relative;
+    top: 100px; */ /* toma la posicion que tiene el elemento y agrega la medida que le estamos diciendo */ 
+    /* bottom: -200px; tambien se puede usar */  /* subir/bajar */
+    /* z-index: -1; */
+}
+
+.div1 {
+    background-color: aqua;
+    /* position: static; */ /* valor que viene por defecto */
+    /* bottom: 100px; */
+}
+.div2 {
+    background-color: rgb(49, 65, 235);
+    position: absolute; /* permite cambiar la posicion */
+    /* bottom: 50%; */ /* se puede usar pocentaje o px */
+    /* left: 100px; *//* se pueden manejar negativos */
+   /*  z-index: 11; */ /* se convierten en capas */
+   /* ******Absoluta es como si dejara de tener su lugar el elemento en el documento pero si aparece 
+   llega a formar parte de otra capa ******** */
+
+   /* top: 100px; */
+   /* left: 300px; */
+  /*  bottom: 50%;
+   right: 50%; */
+/* posicion fixed */
+
+/* top: 50px; */
+position: sticky; /* sticky toma como referencia el cuerpo del padre y tambien una referencia de donde se va a quedar fijo , usarlo menu flotante o menu que solo este en una seccion /esta en fase experimental */
+top: 100px;
+
+
+}
+.div3 {
+    background-color: rgb(181, 32, 207);
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
