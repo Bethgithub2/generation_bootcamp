@@ -1,0 +1,40 @@
+.padre{
+    width: 80%;
+    height: 60vh; /*(alto) toma lo que se muestra en el navegagor (pantalla)  */
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;    /* acomodo de figura none: saca los elementos de pantalla
+    flex: cambia el elemento permite que los elementos se acomoden funciona como contenedor*/
+    /* flex-direction: column; */ /* flex-direction:tiene pordefecto row que es en linea */
+    
+   justify-content: space-around; /*space-between se acomodan espaciados. space-around se espacian pero deja espacio a las orillas */
+   flex-wrap: wrap;
+ 
+}
+/* si tienen row = va hacia la derecha (fila) aplicada 
+justify-content los acomoda horizontalmente ( izquierda a derecha)
+align-items los acomoda verticamente (arriba hacia abajo) 
+colum (columna) 
+align-items horizontalmente
+(izquierda a derecha)
+justify content los acomoda verticamente (arriba-abajo)
+*/
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    
+    
+}
+
+.div1{
+    background-color: blue;
+}
+.div2{
+    background-color: blueviolet;
+}
+
+.div3{
+    background-color: brown;
+}

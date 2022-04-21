@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;600&family=Montserrat:wght@300;400;700&display=swap');
+/* importar fuentes casi siempre al principio del texto */
+
+
+
+*{
+    /* font-family: 'Montserrat', sans-serif; */ /* familia de letras */
+   /*  font-weight:100 ; */ /* grosor de letras */
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* text-decoration: underline; *//* agregar estilos subrayados */
+}
