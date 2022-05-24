@@ -1,5 +1,7 @@
 package com.apijava;
 
+import java.util.Scanner;
+
 public class PruebaApi {
 
 	public static void main(String[] args) {
@@ -12,6 +14,16 @@ public class PruebaApi {
 		
 		
 		System.out.println(nombre.charAt(5));
+		
+		Integer.parseInt("50");
+		
+		//scanner
+		Scanner sc= new Scanner (System.in);
+		sc.nextInt();
+		
+		//Math
+		Math.random();
+		
 	}
 
 }
