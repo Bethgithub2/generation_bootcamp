@@ -1,0 +1,2 @@
+SELECT * FROM Sakila.city;
+
